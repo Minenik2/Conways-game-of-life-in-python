@@ -32,7 +32,7 @@ The list is not finished but we are assigning the neighbours as we go.
 
 [][]
 
-Here we stopped at list[1][1] (1 in y axis and one iN x axis), + = appended neighbours, . = current cell
+Here we stopped at list[1][1] (1 in y axis and one in x axis), + = appended neighbours, . = current cell
 
 [+][+][+][][]
 
