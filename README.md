@@ -42,7 +42,7 @@ The + indicates the neibours that our current cell will append. For example .app
 for the top left neighbour.
 These cells wil also append the current cell back so we dont have to append the future cell with the current one, because the future cell will do it for us.
 
-And so we itirate true all of this and make expetion when needed, for example if the current cell is on the left corner it will only append top and top right
+And so we itirate true all of this and make excepetion when needed, for example if the current cell is on the left corner it will only append top and top right
 
 [][][][][]
 
