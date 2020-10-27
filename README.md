@@ -27,22 +27,22 @@ I can still show some pictures for better understanding
 
 Now imagine this list is a two dimensional one. Where we have the x axis and Y axis.
 The list is not finished but we are assigning the neighbours as we go.
-Y[][][][][]
-Y[][]
-Y = y axis, mostly made so that the arrays won't collapse on itself for these examples
+0 [][][][][]
+1 [][]
+###Y = y axis, mostly made so that the arrays won't collapse on itself for these examples
 
 Here we stopped at list[1][1] (1 in y axis and one iN x axis), + = appended neighbours, . = current cell
-Y[+][+][+][][]
-Y[+][.]
+0 [+][+][+][][]
+1 [+][.]
 The + indicates the neibours that our current cell will append. For example .append(list[x-1][y-1])
 for the top left neighbour.
 These cells wil also append the current cell back so we dont have to append the future cell with the current one, because the future cell will do it for us.
 
 And so we itirate true all of this and make expetion when needed, for example if the current cell is on the left corner it will only append top and top right
-Y[][][][][]
-Y[][][][][]
-Y[+][+][][][]
-Y[.]
+0 [][][][][]
+1 [][][][][]
+2 [+][+][][][]
+3 [.]
 
 Another exception is when the cell is at the right corner then it will only append top left, top and left neightbours.
 Y[][][][][]
