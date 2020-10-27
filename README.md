@@ -29,7 +29,6 @@ Now imagine this list is a two dimensional one. Where we have the x axis and Y a
 The list is not finished but we are assigning the neighbours as we go.
 0 [][][][][]
 1 [][]
-###Y = y axis, mostly made so that the arrays won't collapse on itself for these examples
 
 Here we stopped at list[1][1] (1 in y axis and one iN x axis), + = appended neighbours, . = current cell
 0 [+][+][+][][]
@@ -45,15 +44,15 @@ And so we itirate true all of this and make expetion when needed, for example if
 3 [.]
 
 Another exception is when the cell is at the right corner then it will only append top left, top and left neightbours.
-Y[][][][][]
-Y[][][][][]
-Y[][][][+][+]
-Y[][][][+][.]
+0[][][][][]
+1[][][][][]
+2[][][][+][+]
+3[][][][+][.]
 
 Another exception is if it's at the top of the list then it will only append it's left
-Y[][+][.]
+0[][+][.]
 
 And the final exception being that it's the first cell meaning it has no one to append (must feel very lonely for the current cell :C)
-Y[.]
+0[.]
 
 That's all for the theory in two dimensional arrays.
