@@ -2,7 +2,7 @@
 Game of life coded in python, mainly Norweigan
 
 This is a simulation/'zero player game' where the person gives 2 inputs, one for length and other one for width, these inputs makes a table of the same length and width.
-In these table are cells, they are either dead or alive. The game starts at generation 0, when generating the first generation all the cells have a 1 in 3 chance (33%) each to be alive. Once it's randomly choosen which cells are alive or not we can move over to the next degeration.
+In these table are cells, they are either dead or alive. The game starts at generation 0, when generating the first generation all the cells have a 1 in 3 chance (33%) each to be alive. Once it's randomly choosen which cells are alive or not we can move over to the next generation.
 If a cell is alive, it will die if it has less than 2 or more than 3 alive cells as its neighbours. 
 (dies in less than 2 because underpopulation, dies in more than 3 because overpopulation)
 If a cell is dead, it will live if it has exacly 3 live cells as it's neighbours.
