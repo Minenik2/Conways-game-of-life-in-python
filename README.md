@@ -5,12 +5,15 @@ This is a simulation/'zero player game' where the person gives 2 inputs, one for
 In these table are cells, they are either dead or alive. The game starts at generation 0, when generating the first generation all the cells have a 1 in 3 chance (33%) each to be alive. Once it's randomly choosen which cells are alive or not we can move over to the next generation.
 If a cell is alive, it will die if it has less than 2 or more than 3 alive cells as its neighbours. 
 (dies in less than 2 because underpopulation, dies in more than 3 because overpopulation)
+
 If a cell is dead, it will live if it has exacly 3 live cells as it's neighbours.
 (lives if it's dead and has exacly 3 alive neighbours due to reproduction)
+
 The player can then press enter to move to the next generation, there's a counter that shows the amount of the cells alive at this current generation.
 And so the player can continue to advance to next generations to simulate the lives of these randomly spawned cells.
 (This makes me question if god didn't just make us to watch how far we can go)
-If the player becomes bored or the current seed (randomly spawned cells) satisfy him anymore. The player can press "r" and then enter to restart the game
+
+If the player becomes bored or the current seed (randomly spawned cells) doesn't satisfy him anymore. The player can press "r" and then enter to restart the game
 with newly randomly spawned cells with generation 0 again. Or the player can press "q" and enter to quit the game.
 
 # Programming
